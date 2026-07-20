@@ -1,0 +1,65 @@
+.users-page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.users-page h1 {
+  margin: 0;
+  color: #1e293b;
+  font-size: 32px;
+}
+
+.users-subtitle {
+  color: #777;
+  margin-top: 8px;
+  margin-bottom: 35px;
+}
+
+.users-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.user-card {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+.user-avatar {
+  min-width: 60px;
+  height: 60px;
+  background: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.user-details h2 {
+  margin: 0 0 10px;
+  color: #1e293b;
+  font-size: 20px;
+}
+
+.user-details p {
+  margin: 6px 0;
+  color: #666;
+  font-size: 14px;
+}
