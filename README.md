@@ -109,3 +109,19 @@ AI-Feedback-Platform
 │   └── package.json
 │
 └── README.md
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login Page](login.png.jpeg)
+
+### 📊 Dashboard
+![Dashboard](dashboard.png.jpeg)
+
+### 📥 Feedback Inbox
+![Feedback Inbox](feedback.png.jpeg)
+
+### 👥 Users Page
+![Users Page](users.png.jpeg)
+
+### 👤 Profile Page
+![Profile Page](profile.png.jpeg)
